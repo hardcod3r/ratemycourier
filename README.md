@@ -69,6 +69,14 @@ sail artisan app:install-rate-my-courier
 
 This command will create the necessary database tables and seed initial data.
 
+### 9. Start the Queue Worker
+
+To ensure background jobs are processed, run the queue worker:
+
+```bash
+sail artisan queue:work
+```
+
 ## Running Tests
 
 To execute the application tests:
@@ -99,3 +107,4 @@ The application provides API endpoints for rating courier stores. Refer to the t
 
 ### Author
 **ClickWeb - Kakolyris Konstantinos**
+
